@@ -1,0 +1,25 @@
+/*
+colors:
+34403a
+285238
+138a36
+04e824
+18ff6d
+*/
+body
+{
+    background-color: #34403a;
+}
+
+h1
+{
+    color: #18ff6d;
+}
+h2, h3, h4, ul
+{
+    color: #04e824;
+}
+a, p
+{
+    color: #138a36;
+}
