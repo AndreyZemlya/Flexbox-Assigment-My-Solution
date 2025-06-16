@@ -1,0 +1,60 @@
+body, ul
+{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+header
+{
+    display: flex;
+    background-color: blanchedalmond;
+    align-items: center;
+    font-family: monospace;
+    justify-content: space-between;
+}
+
+ul
+{
+    display: flex;
+    width: max-content;
+    height: 100px;
+    background-color: blanchedalmond;
+    gap: 5px;
+    align-items: center;
+    justify-content: space-around;
+    padding: 5px;
+}
+
+li
+{
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    text-align: center;
+    font-size: 22px;
+}
+
+#r
+{
+    justify-content: flex-end;
+}
+
+#l
+{
+    justify-content: flex-start;
+}
+
+#logo
+{
+    background-color: rgb(255, 255, 255);
+    width: max-content;
+    box-sizing: content-box;
+    padding: 16px;
+    margin: 16px;
+    text-align: center;
+    color: orange;
+    font-weight: bold;
+    font-size: 48px;
+    justify-self: center;
+    align-self: center;
+}
