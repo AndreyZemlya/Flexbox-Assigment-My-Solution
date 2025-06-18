@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+html, body 
+{
+    height: 100%;
+}
+
+body 
+{
+    font-family: Roboto, sans-serif;
+    
+    background: #aaa;
+    color: #333;
+
+    margin: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal 
+{
+    background-color: white;
+    width: 480px;
+    
+    padding-top: 6px;
+    border-radius: 10px;
+
+    box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+}
+
+.icon 
+{
+    color: royalblue;
+    background-color: lavender;
+
+    font-size: 26px;
+    font-weight: 700;
+    
+    width: 42px;
+    height: 42px;
+    
+    border-radius: 50%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.close-button 
+{
+    background-color: #eee;
+    color: #888;
+    
+    font-weight: 400;
+    font-size: 16px;
+    
+    height: 24px;
+    width: 24px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    border: 1px solid #eee;
+    border-radius: 50%;
+    padding: 0;
+    padding-bottom: 2px; 
+}
+
+button 
+{
+    cursor: pointer;
+    padding: 8px 16px;
+    border-radius: 8px;
+}
+
+button.continue 
+{
+    background-color: royalblue;
+    color: white;
+
+    border: none;
+}
+
+button.cancel 
+{
+    background-color: white;
+    color: royalblue;
+  
+    border: 1px solid #ddd;
+}
+
+.modal
+{
+    display: flex;
+    align-items: flex-end;
+}
+
+#header-container
+{
+    display: flex;
+
+    height: 25px;
+    width: 95%;
+    
+    align-items: center;
+    justify-content: space-between;
+
+    margin-bottom: 6px;
+    margin-top: 12px;
+}
+
+#header-text
+{
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+#article-body-container
+{    
+    width: 95%;
+    height: max-content;   
+
+
+    align-self: flex-end;
+}
+
+.icon
+{
+    width: 200px;
+    height: 45px;
+
+    margin: 12px;
+    margin-bottom: auto;
+}
+
+#button-container
+{
+    margin-bottom: 18px;
+    margin-top: 18px;
+}
