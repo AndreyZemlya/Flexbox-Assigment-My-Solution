@@ -1,59 +1,51 @@
-header
+body
 {
-    background-color: rgb(255, 226, 162);
-    width: 90%;
-    height: 100px;
+    margin: 0px;
+}
+
+header  
+{
+    font-family: monospace;
+
+    background: papayawhip;
 
     display: flex;
-    justify-self: center;
-    justify-content: space-between;
     align-items: center;
-    gap: 6px;
+    justify-content: space-between;
+
+    padding: 12px;
 }
 
-ul
+
+
+.logo 
 {
-    width: max-content;
-
-    box-sizing: content-box;
-    margin: 6px;
-    gap: 18px;
-    padding: 6px;
-
-    list-style-type: none;
-    display: flex;
-    border: 6px solid;
-}
-
-li
-{
-    background-color: white;
-
-    box-sizing: content-box;
-    padding: 6px;
-}
-
-#l
-{
-    justify-content: flex-start;
-}
-
-#r
-{
-    justify-content: flex-end;
-}
-
-#logo
-{
-    background-color: white;
-    color: orange;
-
     font-size: 48px;
-    font-family:  Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    text-align: center;
+    font-weight: 900;
     
-    box-sizing: content-box;
-    padding: 6px 24px;
-    margin: 6px;
-    border: 6px solid;
+    color: tomato;
+    background-color: white;
+    
+    padding: 4px 32px;
+}
+
+ul 
+{
+    /* this removes the dots on the list items*/
+    list-style: none;
+    
+    margin: 12px;
+    padding: 0px;
+    
+    display: flex;
+    gap: 12px;
+}
+
+a 
+{
+    font-size: 22px;
+    background: white;
+    padding: 8px;
+    /* this removes the line under the links */
+    text-decoration: none;
 }

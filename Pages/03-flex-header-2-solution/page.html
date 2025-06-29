@@ -1,31 +1,42 @@
 <!DOCTYPE html>
-<html>
-
+<html lang = "en">
     <head>
-    
-        <title>Flex header 2 solution</title>
-    
-        <meta charset = "UTF-8">
-        <meta name = "description" content = "Page description">
+
+        <title>Flex Header 2</title>
+
+        <meta charset="UTF-8">
         <meta name = "viewport" content = "width = device-width, initial-scale = 1.0">
-    
+        <meta name = "description" content = "Flex header 2 solution">
         <link rel = "stylesheet" href = "./page.css">
+
     </head>
 
     <body>
-        <header class = "container" id = "main-container">
-            <p id = "logo" class = "item"><em>LOGO</em></p>
-            <ul class = "container" id = "spisok">
-                <li><a href = "#" class = "item">link-one</a></li>
-                <li><a href = "#" class = "item">link-two</a></li>
-                <li><a href = "#" class = "item">link-three</a></li>
-            </ul>
 
-            <div class = "container" id = "r">
-                <p id = "message-count-text" class = "item">1 new notification</p>
-                <p id = "circle" class = "item"></p>
+        <header>
+            <div id = "left-content">
+                <div class = "logo">
+                    LOGO
+                </div>
+
+                <ul class = "links">
+                    <li><a href = "https://google.com">link-one</a></li>
+                    <li><a href = "https://google.com">link-two</a></li>
+                    <li><a href = "https://google.com">link-three</a></li>
+                </ul>
             </div>
+
+
+            <div id = "right-content">
+                <button class = "notifications">
+                    1 new notification
+                </button>
+
+                <div class = "profile-image"></div>
+            </div>
+
         </header>
+
     </body>
 
 </html>
